@@ -1,4 +1,4 @@
-##Pix2Pix GANS
+# Pix2Pix GANS
 
 Pix2Pix is a Generative Adversarial Network, or GAN, model designed for general purpose image-to-image translation.
 
@@ -13,3 +13,4 @@ Again, the discriminator model is updated directly, and the generator model is u
 The Pix2Pix GAN has been demonstrated on a range of image-to-image translation tasks such as converting maps to satellite photographs, black and white photographs to color, and sketches of products to product photographs.
 
 Now that we are familiar with the Pix2Pix GAN, let’s explore how we can implement it using the Keras deep learning library.
+ 
