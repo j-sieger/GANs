@@ -24,4 +24,6 @@ Finally, if generator training goes well, the discriminator gets worse at tellin
 
 ### GAN Architure:
 Generator will be trained in GAN model based on the output from discriminator. But discriminator will be freezed while training the GAN.
+
+![](Screenshots/taining.JPG)
 ![](Screenshots/backprop.JPG)
