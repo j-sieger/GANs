@@ -1,7 +1,7 @@
 # GAN 
+#### Generating Something from Nothing.
 
-
-### Architecture of Basic GAN:
+### Architecture of Basic GANs:
 
 A generative adversarial network (GAN) has two parts:
 
@@ -9,6 +9,7 @@ The **generator** learns to generate plausible data. The generated instances bec
 
 The **discriminator** learns to distinguish the generator's fake data from real data. The discriminator penalizes the generator for producing implausible results.
 
+### GANs OVERVIEW
 When training begins, the generator produces obviously fake data, and the discriminator quickly learns to tell that it's fake:
 
 ![alt test](Screenshots/gen1.JPG)
@@ -21,4 +22,6 @@ Finally, if generator training goes well, the discriminator gets worse at tellin
 
 ![alt test](Screenshots/gen3.JPG)
 
-###GAN Architure:
+### GAN Architure:
+Generator will be trained in GAN model based on the output from discriminator. But discriminator will be freezed while training the GAN.
+![](Screenshots/backprop.JPG)
