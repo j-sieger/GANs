@@ -22,8 +22,15 @@ We use Parametric ReLU or PReLU which has a learnable slope compared to a Leaky 
 The GAN-part of the objective function of an SRGAN is formulated as follows :-
 
 ![](Screenshots/SRGANimg3.JPG)
+
 The Adversarial Loss part is the traditional GAN loss of Generator and is low-weighted with 0.001 weight. The Content Loss is the new thing here, which can calculated as MSE loss or the VGG loss.
 
 The **MSE Content Loss** is comparing I-HR with Generated image and taking MSE over this difference.
 
 The **VGG Content Loss** is taking the feature vector (phi-function) after the j-th convolution (after activation) but before the i-th maxpool layer within a VGG19 network.
+
+![](Screenshots/SRGANimg4.JPG)
+
+![](Screenshots/SRGANimg5.JPG)
+
+![](Screenshots/SRGANimg6.JPG)
